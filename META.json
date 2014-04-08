@@ -36,6 +36,10 @@
       },
       "runtime" : {
          "requires" : {
+            "HTTP::Tiny" : "0",
+            "JSON" : "2.0",
+            "Moose" : "0",
+            "Try::Tiny" : "0",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +50,20 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mikegrb/unirest-perl/issues"
+      },
+      "homepage" : "https://github.com/mikegrb/unirest-perl",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/mikegrb/unirest-perl.git",
+         "web" : "https://github.com/mikegrb/unirest-perl"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "mikegrb <mgreb@linode.com>"
+   ]
 }
 
